@@ -3,8 +3,8 @@ import './styles/baseCompressed.css';
 import './styles/styleCompressed.css';
 import Header from './components/header';
 import Footer from './components/footer';
-import RaceType from './components/raceTypes';
-import RaceBox from './components/raceBox'
+import Current from './components/current';
+import Runners from './components/runners'
 
 function App() {
   return (
@@ -13,10 +13,10 @@ function App() {
         <Header />
 
         <div id="content" ng-controller="NativeLevelAppCtrl as appCtrl" className="ng-scope">
-          <RaceType />
+          <Current />
 
           <main id="content-container" role="main"></main>
-          <RaceBox />
+          <Runners />
 
         </div>
       </div>

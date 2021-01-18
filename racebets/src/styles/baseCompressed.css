@@ -955,12 +955,12 @@ span.pointer {
 div.rounded,
 input.rounded {
     border-radius: 3px;
-    -webkit-background-clip: padding-box
+    background-clip: padding-box
 }
 
 div.rounded.r10 {
     border-radius: 11px;
-    -webkit-background-clip: padding-box
+    background-clip: padding-box
 }
 
 div.rounded h2 {
@@ -1308,7 +1308,6 @@ div.panel h2 a.button {
     background-image: -webkit-linear-gradient(top, #fff 0, #eaeaea 100%);
     background-image: -o-linear-gradient(top, #fff 0, #eaeaea 100%);
     background-image: -ms-linear-gradient(top, #fff 0, #eaeaea 100%);
-    background-image: linear-gradient(top, #fff 0, #eaeaea 100%)
 }
 
 div#settings-dialog ul li div.ui-buttonset label.ui-button.ui-state-active {
@@ -1317,8 +1316,6 @@ div#settings-dialog ul li div.ui-buttonset label.ui-button.ui-state-active {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eaeaea), color-stop(100%, #fff));
     background-image: -webkit-linear-gradient(top, #eaeaea 0, #fff 100%);
     background-image: -o-linear-gradient(top, #eaeaea 0, #fff 100%);
-    background-image: -ms-linear-gradient(top, #eaeaea 0, #fff 100%);
-    background-image: linear-gradient(top, #eaeaea 0, #fff 100%)
 }
 
 #cashier-options div.content div.panel.overview ul li span.button input.button.disabled {
@@ -1327,8 +1324,6 @@ div#settings-dialog ul li div.ui-buttonset label.ui-button.ui-state-active {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f7f7f7), color-stop(100%, #ededed));
     background-image: -webkit-linear-gradient(top, #f7f7f7 0, #ededed 100%);
     background-image: -o-linear-gradient(top, #f7f7f7 0, #ededed 100%);
-    background-image: -ms-linear-gradient(top, #f7f7f7 0, #ededed 100%);
-    background-image: linear-gradient(top, #f7f7f7 0, #ededed 100%)
 }
 
 div.panel h2 a.button:hover {
@@ -1338,7 +1333,6 @@ div.panel h2 a.button:hover {
     background-image: -webkit-linear-gradient(top, #fff 48%, #eee 100%);
     background-image: -o-linear-gradient(top, #fff 48%, #eee 100%);
     background-image: -ms-linear-gradient(top, #fff 48%, #eee 100%);
-    background-image: linear-gradient(top, #fff 48%, #eee 100%)
 }
 
 div.pagination a.current {
@@ -1348,7 +1342,6 @@ div.pagination a.current {
     background-image: -webkit-linear-gradient(top, #ebebeb 0, #fff 100%);
     background-image: -o-linear-gradient(top, #ebebeb 0, #fff 100%);
     background-image: -ms-linear-gradient(top, #ebebeb 0, #fff 100%);
-    background-image: linear-gradient(top, #ebebeb 0, #fff 100%)
 }
 
 .t_Content_multi ul.buttons li:hover,
@@ -1360,7 +1353,6 @@ div.sidebar.tabbed ul.events li:hover {
     background-image: -webkit-linear-gradient(top, #fff 0, #f3f3f3 100%);
     background-image: -o-linear-gradient(top, #fff 0, #f3f3f3 100%);
     background-image: -ms-linear-gradient(top, #fff 0, #f3f3f3 100%);
-    background-image: linear-gradient(top, #fff 0, #f3f3f3 100%)
 }
 
 div.racedetails div.details span.race-hint.red {
@@ -1370,7 +1362,6 @@ div.racedetails div.details span.race-hint.red {
     background: -webkit-linear-gradient(top, #ee0303 0, #911103 100%);
     background: -o-linear-gradient(top, #ee0303 0, #911103 100%);
     background: -ms-linear-gradient(top, #ee0303 0, #911103 100%);
-    background: linear-gradient(top, #ee0303 0, #911103 100%)
 }
 
 #beat-the-trader div.content ul.tabs li a,
@@ -1380,7 +1371,6 @@ div.racedetails div.details span.race-hint.red {
     background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, #fff), color-stop(100%, #f2f2f2))!important;
     background-image: -moz-linear-gradient(#fff, #f2f2f2)!important;
     background-image: -webkit-linear-gradient(#fff, #f2f2f2)!important;
-    background-image: linear-gradient(#fff, #f2f2f2)!important
 }
 
 #beat-the-trader div.content ul.tabs li.active a,

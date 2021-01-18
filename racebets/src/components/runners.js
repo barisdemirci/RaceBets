@@ -1,9 +1,8 @@
 import React from 'react';
 
-class RaceBox extends React.Component {
+class Runners extends React.Component {
     constructor() {
         super();
-        this.state = { color: "red" };
     }
 
     render() {
@@ -123,4 +122,4 @@ class RaceBox extends React.Component {
     }
 }
 
-export default RaceBox
+export default Runners
